@@ -60,15 +60,33 @@ Initial network discovery was performed to identify the target IP address.
 
 ### Nmap Scan
 
+Command executed:
+
 ```bash
-nmap -sC -sV -A <target-ip>
+nmap -sC -sV -A 192.168.1.10
+
+Scan Result:
+
+```bash
+Starting Nmap 7.94 ( https://nmap.org )
+Nmap scan report for 192.168.1.10
+Host is up (0.00052s latency).
+Not shown: 997 closed ports
+
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu
+80/tcp   open  http    Apache httpd 2.4.41
+3306/tcp open  mysql   MySQL 5.7.31
+
+Service Info: OS: Linux
 ```
 
-This scan helped identify:
-- Open ports  
-- Running services  
-- Service versions  
-- Potential vulnerabilities  
+### Key Observations
+
+- SSH service running on port 22  
+- Web server active on port 80  
+- MySQL service exposed on port 3306  
+- Potential attack surface through web application   
 
 ---
 
