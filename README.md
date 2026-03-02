@@ -171,3 +171,11 @@ DoubleTrouble/
 This project demonstrates a structured penetration testing approach and highlights the importance of systematic reconnaissance, enumeration, exploitation, and privilege escalation.
 
 The DoubleTrouble machine provided valuable hands-on experience in identifying and exploiting real-world vulnerabilities.
+---
+
+##  Author Information
+
+**Author:** Jeevan Shaji John  
+**Course:** BCA Cyber Security  
+**Institution:** Marian College Kuttikkanam Autonomous  
+**Year:** 2026
