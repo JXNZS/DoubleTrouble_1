@@ -90,3 +90,22 @@ Root Flag:
 ```
 cat /root/root.txt
 ```
+---
+
+## Vulnerability Identified
+
+| Vulnerability | Type | Impact |
+|---------------|------|--------|
+| SQL Injection | Injection | Database compromise |
+| Credential Exposure | Sensitive Data | Unauthorized access |
+| Privilege Escalation Misconfiguration | Local Privilege Escalation | Root access |
+
+---
+
+## Lessons Learned
+
+- Always validate and sanitize user input
+- Use prepared statements to prevent SQL injection
+- Restrict database exposure
+- Apply principle of least privilege
+- Regularly patch and update services
