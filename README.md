@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Introduction
+##  Introduction
 
 DoubleTrouble is a vulnerable machine designed to test penetration testing skills including reconnaissance, enumeration, exploitation, and privilege escalation.
 
@@ -12,7 +12,7 @@ This repository documents the full methodology used to compromise the system in 
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The goal of this project is to:
 
@@ -25,7 +25,7 @@ The goal of this project is to:
 
 ---
 
-## 🖥 Lab Environment
+##  Lab Environment
 
 | Component | Details |
 |-----------|----------|
@@ -37,7 +37,7 @@ The goal of this project is to:
 
 ---
 
-## 🔎 Methodology Overview
+##  Methodology Overview
 
 The attack methodology followed these structured phases:
 
@@ -50,7 +50,7 @@ The attack methodology followed these structured phases:
 
 ---
 
-# 🔍 Phase 1 – Reconnaissance
+#  Phase 1 – Reconnaissance
 
 Initial network discovery was performed to identify the target IP address.
 
@@ -68,7 +68,7 @@ This scan helped identify:
 
 ---
 
-# 🔎 Phase 2 – Enumeration
+#  Phase 2 – Enumeration
 
 Further enumeration was performed on discovered services.
 
@@ -82,7 +82,7 @@ This helped identify hidden directories and web resources.
 
 ---
 
-# 💥 Phase 3 – Exploitation
+#  Phase 3 – Exploitation
 
 Based on enumeration results, identified vulnerabilities were exploited to gain initial access.
 
@@ -96,7 +96,7 @@ Or using Metasploit if applicable.
 
 ---
 
-# 🔐 Phase 4 – Privilege Escalation
+#  Phase 4 – Privilege Escalation
 
 After gaining user access, privilege escalation techniques were used:
 
@@ -114,7 +114,7 @@ find / -perm -4000 -type f 2>/dev/null
 
 ---
 
-# 🏁 Flags Captured
+#  Flags Captured
 
 | Flag Type | Location |
 |-----------|----------|
@@ -123,7 +123,7 @@ find / -perm -4000 -type f 2>/dev/null
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 DoubleTrouble/
@@ -135,7 +135,7 @@ DoubleTrouble/
 
 ---
 
-## 📝 Key Learnings
+##  Key Learnings
 
 - Importance of thorough enumeration  
 - Always check for hidden directories  
@@ -144,7 +144,7 @@ DoubleTrouble/
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates a structured penetration testing approach and highlights the importance of systematic reconnaissance, enumeration, exploitation, and privilege escalation.
 
