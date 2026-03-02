@@ -1,3 +1,7 @@
+![Kali Linux](https://img.shields.io/badge/Platform-Kali_Linux-blue?style=for-the-badge&logo=linux)
+![Pentesting](https://img.shields.io/badge/Type-Penetration_Testing-red?style=for-the-badge)
+![CTF](https://img.shields.io/badge/Category-CTF-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 # DoubleTrouble
 
 > A complete penetration testing walkthrough and technical report for the DoubleTrouble machine.
